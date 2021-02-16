@@ -24,10 +24,13 @@
 
 ## FASTA/FASTQ files
   See: https://anaconda.org/bioconda/seqkit for reference.
+  
   This command converts a gzipped FASTQ file to its reverse complement FASTQ
+  
   `
   seqkit seq -rp -t dna  SAMPLE.fastq.gz > rev_comp_SAMPLE.fastq  
   `
+  
   gzip FASTQs captured with the wildcard
   ` gzip *fastq`
   
