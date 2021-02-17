@@ -21,12 +21,17 @@
 ## File manipulation
 ### Command on batch/multiple files
   `find <FILE> | xargs [command] [-flags]`
-
+  
+  Find reverse complement of I2 FASTQ files in a directory, and add a prefix to their output FASTQ files.
+  (in a .sh script)
+  `prefix="rev_comp_"`
+  `for f in *I2*; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
+  
+  
 ## FASTA/FASTQ files
   See: https://anaconda.org/bioconda/seqkit for reference.
   
   Convert a gzipped FASTQ file to its reverse complement FASTQ:
-  
   `
   seqkit seq -rp -t dna  SAMPLE.fastq.gz > rev_comp_SAMPLE.fastq  
   `
