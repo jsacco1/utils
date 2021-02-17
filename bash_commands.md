@@ -24,6 +24,7 @@
   
   Find reverse complement of I2 FASTQ files in a directory, and add a prefix to their output FASTQ files.
   (in a .sh script)
+  
   `prefix="rev_comp_"`
   `for f in *I2*; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
   
@@ -37,7 +38,9 @@
   `
   
   gzip FASTQs captured with the wildcard:
-  ` gzip *fastq`
+  ` 
+  gzip *fastq
+  `
   
   Find number of reads in fastq.gz:
   
