@@ -1,12 +1,16 @@
-#Guide-seq python2.7 setup and run analysis
+#Guide-seq python2.7 setup and analysis
 
 ## Materials
-  1. demultiplexed fastq.gz files with r1, r2, i1, i2.
+  1. Demultiplexed fastq.gz files with r1, r2, i1, i2.
 
 ## Environment setup
-  1. create python2.7 env
+  1. Create python2.7 env
 
   `conda create -n py27 python=2.7`
+  
+  2. Install python2.7 version of htseq
+  
+  `conda install -c bcbio htseq`
 
 ## Analysis
   1. Run each step individually from umitag
