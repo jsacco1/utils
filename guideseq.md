@@ -1,8 +1,8 @@
 #Guide-seq python2.7 setup and analysis
 
 ## Materials
-  1. Demultiplexed fastq.gz files with r1, r2, i1, i2.
-
+  1. Demultiplexed fastq.gz files. Each sample should have R1, R2, I1, and I2 (reads 1 and 2, and indices 1 and 2).
+  
 ## Environment setup
   1. Create python2.7 env
 
@@ -13,7 +13,7 @@
   `conda install -c bcbio htseq`
 
 ## Analysis
-  1. Run each step individually from umitag
+  1. Run each step individually, starting from from umitag. No yaml file required. 
   
   Example:
   
@@ -21,6 +21,6 @@
   path/to/r2 --index1 path/to/i1 --index2  path/to/r2 --outfolder  \
   path/to/output/ `
 
-  2. Check fastq records
+  2. Check first records of all fastq files
   
   `head -10 *fastq`
