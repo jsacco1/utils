@@ -38,8 +38,8 @@
   Convert reverse complement of index2 (I2) FASTQ files in a directory; add a prefix to their output FASTQ files.
   (in a .sh script)
   
-  `#!/bin/bash
-  prefix="rev_comp_"
+  `#!/bin/bash \
+  prefix="rev_comp_" \
   for f in *I2*; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
   
   
