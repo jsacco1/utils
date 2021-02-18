@@ -21,3 +21,6 @@
   path/to/r2 --index1 path/to/i1 --index2  path/to/r2 --outfolder  \
   path/to/output/ `
 
+  2. Check fastq records
+  
+  `head -10 *fastq`
