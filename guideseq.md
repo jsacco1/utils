@@ -8,7 +8,7 @@
 
   `conda create -n py27 python=2.7`
   
-  2. Install python2.7 version of htseq
+  2. Install python2.7 version of htseq. (See: https://anaconda.org/bcbio/htseq)
   
   `conda install -c bcbio htseq`
 
