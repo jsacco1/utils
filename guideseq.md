@@ -10,7 +10,9 @@
 
 ## Analysis
   1. Run each step individually from umitag
+  
   Example:
+  
   ` python2 guideseq/guideseq.py umitag --read1 path/to/r1 --read2 \
   path/to/r2 --index1 path/to/i1 --index2  path/to/r2 --outfolder  \
   path/to/output/ `
