@@ -21,6 +21,10 @@
   Check first 10 records
   
   `head -10 <FILE>`
+  
+  Count lines in every .txt file in current directory
+  
+  `echo $(wc -l  *.txt) `
 
 ## File manipulation
 
