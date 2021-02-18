@@ -66,5 +66,8 @@
   
   ``for i in `ls *.fastq.gz`; do echo $(zcat ${i} | wc -l)/4|bc; done``
 
-
+ ## NGS pakcages
+  Install python2.7 version of htseq
+  
+  `conda install -c bcbio htseq`
 
