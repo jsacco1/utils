@@ -4,7 +4,7 @@
 
 ## Environment Setup
 ### Loading files
-1. Untar file
+  Untar file
   `tar -xvzf <FILE>.tar.gz`
 
 ### Install requirements
@@ -44,7 +44,7 @@
   seqkit seq -rp -t dna  SAMPLE.fastq.gz > rev_comp_SAMPLE.fastq  
   `
   
-  gzip FASTQs captured with the wildcard:
+  gzip all FASTQs in current directory:
   ` 
   gzip *fastq
   `
