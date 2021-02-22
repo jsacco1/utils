@@ -25,7 +25,7 @@
   
   `head -10 *fastq`
 
-  3. Run consolidation step (may take 15-30 minutes)
+  3. Run consolidation step (may take 15-40 minutes)
   
   ` python2 guideseq/guideseq.py consolidate --read1 path/to/r1.umitagged --read2 \
   path/to/r2.umitagged --outfolder path/to/output/ `
