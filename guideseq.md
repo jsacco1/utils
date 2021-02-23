@@ -14,7 +14,11 @@
 
   3. *May need bedtools 2.25 to work around some errors.*
   
-  Found here: https://github.com/arq5x/bedtools2/releases/tag/v2.25.0
+  Download Bedtools 2.25 from here: https://github.com/arq5x/bedtools2/releases/tag/v2.25.0
+  
+  See this issue with regards to installation of bedtools and bwa: https://github.com/aryeelab/guideseq/blob/c608522e36dd20c480774284b52bcf13476a7b7b/.travis.yml
+  
+  Note the path for bwa added as environment variable.
 
 ## Analysis
   1. Run each step individually, starting from from umitag. No yaml file required. 
@@ -33,3 +37,5 @@
   
   ` python2 guideseq/guideseq.py consolidate --read1 path/to/r1.umitagged --read2 \
   path/to/r2.umitagged --outfolder path/to/output/ `
+  
+  4. Align to hg19.fa
