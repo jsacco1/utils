@@ -12,6 +12,10 @@
   
   `conda install -c bcbio htseq`
 
+  3. *May need bedtools 2.25 to work around some errors.*
+  
+  Found here: https://github.com/arq5x/bedtools2/releases/tag/v2.25.0
+
 ## Analysis
   1. Run each step individually, starting from from umitag. No yaml file required. 
   
