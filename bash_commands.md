@@ -71,6 +71,10 @@
   
   `rename 's/\.gz$//' *.gz`
 
+  Save the read counts of all the fastq.gz files in the current directory to a csv
+  
+  `wc -l i2/*.gz * 1/4 > readcounts.csv`
+
  ## NGS packages
   Install python2.7 version of htseq
   
