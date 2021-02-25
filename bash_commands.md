@@ -57,7 +57,7 @@
   seqkit seq -rp -t dna  SAMPLE.fastq.gz > rev_comp_SAMPLE.fastq  
   `
   
-  gzip all FASTQs in current directory:
+  gzip all FASTQs in current directory (do this after making reverse complement files):
   
   ` 
   gzip *fastq
@@ -71,9 +71,9 @@
   
   `rename 's/\.gz$//' *.gz`
 
-  Save the read counts of all the fastq.gz files in the current directory to a csv
+  Save the read counts of all the fastq.gz files in the current directory to a csv. This saves the filenames and read counts in the same column. 
   
-  `wc -l i2/*.gz * 1/4 > readcounts.csv`
+  `for i in `ls *.fastq.gz`; do echo $(zcat ${i} | wc -l)/4|bc; echo ${i}; done > read_counts_MMDDYYYY.csv`
 
  ## NGS packages
   Install python2.7 version of htseq
