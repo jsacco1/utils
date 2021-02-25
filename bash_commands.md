@@ -65,7 +65,7 @@
   
   Find number of reads in fastq.gz:
   
-  ``for i in `ls *.fastq.gz`; do echo $(zcat ${i} | wc -l)/4|bc; done``
+  ``for i in `/ls *.fastq.gz`/; do echo $(zcat ${i} | wc -l)/4|bc; done``
   
   Drop ending extension. For instance, if a file is named fastq.gz, but it is not, in fact, gzipped.
   
