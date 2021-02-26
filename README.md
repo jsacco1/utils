@@ -1,7 +1,7 @@
 # utils
-useful scripts/commands
+Useful scripts/commands focused on bioinformatics analysis. 
 
-## useful links
+## Useful links
 https://bioinf.shenwei.me/seqkit/tutorial/ (seqkit)
 
 https://sourceforge.net/projects/bbmap/ (bbmap)
