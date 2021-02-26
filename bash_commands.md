@@ -4,6 +4,20 @@
 
 ## Environment Setup
 
+### Copy and send file over a secure, encrypted network connection
+  Use Linux scp command:
+  `scp [File] user@host:/[dir]`
+
+### Activate conda
+  If conda is already in bashrc, make sure conda is installed. Find `~/anaconda3/bin/`
+  
+   `source ~/anaconda3/bin/activate`
+   
+  Conda init
+  
+   `conda init`
+   
+
 ### Memory resources
   Check if you have enough memory to run intensive processes, such as creating SAM files. Notice swap memory. In bioinformatics, one should have about 16GB of memory.
   
