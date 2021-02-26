@@ -3,6 +3,14 @@
 # Some useful snippets for Bash
 
 ## Environment Setup
+
+### Memory resources
+  Check if you have enough memory to run intensive processes, such as creating SAM files. Notice swap memory. In bioinformatics, one should have about 16GB of memory.
+  
+  `top`
+  
+  A good check is to run bwa mem with forward and reverse FASTQ files. See if the process is killed. 
+
 ### Loading files
   Untar file
   
