@@ -42,4 +42,6 @@
   ` python2 guideseq/guideseq.py consolidate --read1 path/to/r1.umitagged --read2 \
   path/to/r2.umitagged --outfolder path/to/output/ `
   
-  4. Align to hg19.fa
+  4. Align to hg38.fa
+  
+  Make sure bwa is in PATH.
