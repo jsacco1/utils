@@ -3,7 +3,7 @@
 ## Materials
   1. Demultiplexed fastq.gz files. Each sample should have R1, R2, I1, and I2 (reads 1 and 2, and index files 1 and 2).
 
-  2. Human reference genome (hg19.fa)
+  2. Human reference genome (hg38.fa)
   
 ## Environment setup
   1. Create python2.7 env
