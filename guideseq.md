@@ -1,7 +1,9 @@
 #Guide-seq python2.7 setup and analysis
 
 ## Materials
-  1. Demultiplexed fastq.gz files. Each sample should have R1, R2, I1, and I2 (reads 1 and 2, and indices 1 and 2).
+  1. Demultiplexed fastq.gz files. Each sample should have R1, R2, I1, and I2 (reads 1 and 2, and index files 1 and 2).
+
+  2. Human reference genome (hg19.fa)
   
 ## Environment setup
   1. Create python2.7 env
@@ -20,6 +22,8 @@
   
   Note the path for bwa added as environment variable.
 
+  4. Add bwa to $PATH
+  
 ## Analysis
   1. Run each step individually, starting from from umitag. No yaml file required. 
   
