@@ -22,7 +22,7 @@
   
   Note the path for bwa added as environment variable.
 
-  4. Add bwa to $PATH
+  4. Add bwa and bedtools to the $PATH
   
 ## Analysis
   1. Run each step individually, starting from from umitag. No yaml file required. 
