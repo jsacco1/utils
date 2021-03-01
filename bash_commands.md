@@ -102,7 +102,7 @@
   
   `conda install -c bcbio htseq`
   
-  Check if tools such as bwa, bedtools, and samtools are installed in your environment if those are needed for your analysis.
-  
+  Check if tools such as bwa, bedtools, and samtools are installed in your path.
+ 
   
 
