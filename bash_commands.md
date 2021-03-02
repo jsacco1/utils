@@ -23,7 +23,7 @@
   
   `top`
   
-  A good check is to run bwa mem with forward and reverse FASTQ files. See if the process is killed. 
+  A good check is to run bwa mem with forward and reverse FASTQ files. If memory runs out, the system will automatically kill the process. 
 
 ### Loading files
   Untar file
