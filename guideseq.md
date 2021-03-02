@@ -42,6 +42,12 @@
   ` python2 guideseq/guideseq.py consolidate --read1 path/to/r1.umitagged --read2 \
   path/to/r2.umitagged --outfolder path/to/output/ `
   
-  4. Align to hg38.fa
+  4. Align to reference genome.
   
-  Make sure bwa is in PATH.
+  Make sure bwa is in your PATH. Specify path to genomic reference (e.g., hg38.fa).
+  
+  5. Identify off-target sites
+  
+  Use `''` to specify a control without a target sequence. Add the PAM sequence to the 3' (right side) of the target sequence argument. Append NGG for SpCas9, and NNGRRT for SaCas9.
+  
+  
