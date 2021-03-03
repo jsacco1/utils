@@ -44,10 +44,15 @@
   
   4. Align to reference genome.
   
-  Make sure bwa is in your PATH. Specify path to genomic reference (e.g., hg38.fa).
+  Make sure bwa is in your PATH. Specify path to genomic reference (e.g., hg38.fa). (This step may take 20 minutes.)
   
   5. Identify off-target sites
   
-  Use `''` to specify a control without a target sequence. Add the PAM sequence to the 3' (right side) of the target sequence argument. Append NGG for SpCas9, and NNGRRT for SaCas9.
+  Use `''` to specify a control without a target sequence. Add the PAM sequence to the 3' (right side) of the target sequence argument. Append NGG for SpCas9, and NNGRRT for SaCas9. 
+  
+  6. Visualize
   
   
+  ## Discussion & Further Questions
+  
+    Certain criteria are used to determine whether a sequence if off-target; part of that criteria is the setting the threshold allowance for gaps. Research more about how alignment is done. A 50 bp window is compared to the 21 bp target sequence.
