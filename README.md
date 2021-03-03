@@ -5,6 +5,10 @@ This repository contains useful code focused on bioinformatics analysis of NGS d
 
   One-liners and small scripts useful in environment setup, package management, resource requirements, and data preprocessing.
 
+2. guideseq:
+
+  Tips for running the python2.7 build of the guideseq analysis package. 
+
 ## Useful links
 https://bioinf.shenwei.me/seqkit/tutorial/ (seqkit)
 
