@@ -55,4 +55,4 @@
   
   ## Discussion & Further Questions
   
-    Certain criteria are used to determine whether a sequence if off-target; part of that criteria is the setting the threshold allowance for gaps. Research more about how alignment is done. A 50 bp window is compared to the 21 bp target sequence.
+  Certain criteria are used to determine whether a sequence if off-target; part of that criteria is the setting the threshold allowance for gaps. Research more about how alignment is done. A 50 bp window is compared to the 21 bp target sequence.
