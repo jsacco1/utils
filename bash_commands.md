@@ -89,6 +89,10 @@
 
   `for f in $files; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
   
+  5. Remove all original files without the prefix
+  
+  `rm  -- !(rev_comp*)`
+  
 ## FASTA/FASTQ files
   See: https://anaconda.org/bioconda/seqkit for reference.
   
