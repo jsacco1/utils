@@ -38,6 +38,10 @@
   Find files in current dir
   
   `find . -name <FILE>`
+  
+  Enter a directory with spaces in its name
+  
+  `cd 'path/to/di rectory'`
 
 ## EDA
   Check first 10 records
