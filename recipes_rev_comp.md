@@ -40,7 +40,7 @@
 
   Find number of reads in fastq.gz files
 
-  `for i in `/ls *.fastq.gz`/; do echo $(zcat ${i} | wc -l)/4|bc; done`
+  `for i in ``ls *.fastq.gz`` do echo $(zcat ${i} | wc -l)/4|bc; done`
 
 
 Reference:
