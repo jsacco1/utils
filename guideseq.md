@@ -37,7 +37,7 @@
   
   `head -10 *fastq`
 
-  3. Run consolidation step (may take 15-40 minutes)
+  3. Run consolidation step (may take 15-40 minutes).  If running in multiple terminals, check that the resulting sam files are appropriately sized.
   
   ` python2 guideseq/guideseq.py consolidate --read1 path/to/r1.umitagged --read2 \
   path/to/r2.umitagged --outfolder path/to/output/ `
