@@ -1,8 +1,11 @@
 # Title: Reverse complement fastq.gz files
 
-## Description: Convert a gzipped FASTQ file to its reverse complement FASTQ:
+## Description: Convert a gzipped fastq file to its reverse complement
 
-## Dependencies: seqkit (bioconda package)
+## Dependencies: 
+  seqkit (bioconda package)
+  
+  Recommend installing in a conda environment
 
 ## Usage example
 
