@@ -3,7 +3,7 @@ This repository contains useful code focused on bioinformatics analysis of NGS d
 
 1. bash_commands:
 
-  One-liners and small scripts useful in environment setup, package management, resource requirements, and data preprocessing.
+  One-liners and small scripts useful in environment setup, package management, resource requirements, and NGS file processing.
 
 2. guideseq:
 
