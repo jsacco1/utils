@@ -17,3 +17,5 @@ https://sourceforge.net/projects/bbmap/ (bbmap)
 https://anaconda.org/bcbio/htseq (htseq for python2.7 support)
 
 https://www.golinuxcloud.com/tmux-commands/#Create_your_first_tmux_session tmux tutorial (terminal/CLI tool for uninterrupted running of processes)
+
+https://www.linuxvasanth.com/category/shell-scripting/ Linux blog with useful tips
