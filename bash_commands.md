@@ -57,11 +57,12 @@
   SCRIPT_NAME.sh`
 
 ### Command on batch/multiple files
-  Pipe input individually via xargs
+  Pipe input individually via xargs. Syntax: 
   
   `find <FILE> | xargs [command] [-flags]`
   
-  Convert reverse complement of index2 (I2) FASTQ files in a directory; add a prefix to their output FASTQ files.
+  ### Convert reverse complement of index2 (I2) FASTQ files in a directory.
+  Add a prefix to their output FASTQ files.
   (in a .sh script)
   
   `#!/bin/bash \
@@ -69,6 +70,24 @@
   for f in *I2*; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
   
   Note: `gzip rev_comp*` files when done, in order for them to be processed in downstream pipelines.
+  
+  ### Alternatively, in the command prompt:
+  
+  1. Select all fastq.gz files in current directory.
+  
+  `files=$(ls *fastq.gz)`
+  
+  2. Set a prefix.
+
+  `prefix=rev_comp`
+  
+  3. Check the variable was assigned.
+
+  `echo $prefix`
+  
+  4. Run command on all files in files, and append prefix to output file names.
+
+  `for f in $files; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
   
 ## FASTA/FASTQ files
   See: https://anaconda.org/bioconda/seqkit for reference.
