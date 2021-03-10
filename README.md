@@ -19,3 +19,5 @@ https://anaconda.org/bcbio/htseq (htseq for python2.7 support)
 https://www.golinuxcloud.com/tmux-commands/#Create_your_first_tmux_session tmux tutorial (terminal/CLI tool for uninterrupted running of processes)
 
 https://www.linuxvasanth.com/category/shell-scripting/ Linux blog with useful tips
+
+https://meta.stackexchange.com/questions/82718/how-do-i-escape-a-backtick-within-in-line-code-in-markdown Markdown tips on escaping special chars
