@@ -8,6 +8,10 @@ This repository contains useful code focused on bioinformatics analysis of NGS d
 2. guideseq:
 
   Tips for running the python2.7 build of the guideseq analysis package. 
+  
+3. recipes_rev_comp
+
+  Recipe to reverse complement fastq files in batch.
 
 ## Useful links
 https://bioinf.shenwei.me/seqkit/tutorial/ (seqkit)
