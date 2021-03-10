@@ -24,6 +24,8 @@
   `top`
   
   A good check is to run bwa mem with forward and reverse FASTQ files. If memory runs out, the system will automatically kill the process. 
+  
+  Adjust swapiness value if you run out of memory on a Linux system.(See: https://linuxize.com/post/create-a-linux-swap-file/)
 
 ### Loading files
   Untar file
