@@ -50,6 +50,8 @@
   
   Use `''` to specify a control without a target sequence. Add the PAM sequence to the 3' (right side) of the target sequence argument. Append NGG for SpCas9, and NNGRRT for SaCas9. 
   
+  Go into the identify python script, and play with the gap and mismatch penalties. Compare that to what you get from other pairwise sequence alignments (NCBI BLASTn, EMBOSS, etc.). 
+  
   6. Visualize
   
   
