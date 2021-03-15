@@ -3,6 +3,10 @@
 # Some useful snippets for Bash
 
 ## Environment Setup
+   
+   How to fix fatal error: zlib.h: no such file or directory?
+  
+  `sudo apt-get install libz-dev`
 
 ### Copy and send file over a secure, encrypted network connection
   Use Linux scp command:
