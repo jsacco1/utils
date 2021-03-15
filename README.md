@@ -25,3 +25,5 @@ https://www.golinuxcloud.com/tmux-commands/#Create_your_first_tmux_session tmux 
 https://www.linuxvasanth.com/category/shell-scripting/ Linux blog with useful tips
 
 https://meta.stackexchange.com/questions/82718/how-do-i-escape-a-backtick-within-in-line-code-in-markdown Markdown tips on escaping special chars
+
+https://stackoverflow.com/questions/36374267/how-to-fix-fatal-error-zlib-h-no-such-file-or-directory z library error
