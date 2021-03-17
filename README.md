@@ -26,4 +26,7 @@ https://www.linuxvasanth.com/category/shell-scripting/ Linux blog with useful ti
 
 https://meta.stackexchange.com/questions/82718/how-do-i-escape-a-backtick-within-in-line-code-in-markdown Markdown tips on escaping special chars
 
-https://stackoverflow.com/questions/36374267/how-to-fix-fatal-error-zlib-h-no-such-file-or-directory z library error
+https://stackoverflow.com/questions/36374267/how-to-fix-fatal-error-zlib-h-no-such-file-or-directory z library error\
+
+https://bioinformatics.cvr.ac.uk/short-command-lines-for-manipulation-fastq-and-fasta-sequence-files/ SHORT COMMAND LINES FOR MANIPULATION FASTQ AND FASTA SEQUENCE FILES
+
