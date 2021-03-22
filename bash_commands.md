@@ -9,10 +9,12 @@
   `sudo apt-get install libz-dev`
 
 ### Copy and send file over a secure, encrypted network connection
+
   Use Linux scp command:
   `scp [File] user@host:/[dir]`
 
 ### Activate conda
+
   If conda is already in bashrc, make sure conda is installed. Find `~/anaconda3/bin/`
   
    `source ~/anaconda3/bin/activate`
@@ -23,6 +25,7 @@
    
 
 ### Memory resources
+
   Check if you have enough memory to run intensive processes, such as creating SAM files. Notice swap memory. In bioinformatics, one should have about 16GB of memory.
   
   `top`
@@ -32,6 +35,7 @@
   Adjust swapiness value if you run out of memory on a Linux system.(See: https://linuxize.com/post/create-a-linux-swap-file/)
 
 ### Loading files
+
   Untar file
   
   `tar -xvzf <FILE>.tar.gz`
@@ -41,6 +45,7 @@
   `pip install -r requirements.txt`
 
 ### Directories
+
   Find files in current dir
   
   `find . -name <FILE>`
@@ -50,6 +55,7 @@
   `cd 'path/to/di rectory'`
 
 ## EDA
+
   Check first 10 records
   
   `head -10 <FILE>`
@@ -61,12 +67,14 @@
 ## File manipulation
 
 ### Add scripts folder to environment path
+
   Run scripts saved in scripts folder directly from command line
   
   `export PATH=$PATH:/home/path/to/scripts
   SCRIPT_NAME.sh`
 
 ### Command on batch/multiple files
+
   Pipe input individually via xargs. Syntax: 
   
   `find <FILE> | xargs [command] [-flags]`
@@ -104,6 +112,7 @@
   `rm  -- !(rev_comp*)`
   
 ## FASTA/FASTQ files
+
   See: https://anaconda.org/bioconda/seqkit for reference.
   
   Convert a gzipped FASTQ file to its reverse complement FASTQ:
@@ -133,11 +142,15 @@
   ```for i in `ls *.fastq.gz`; do echo $(zcat ${i} | wc -l)/4|bc; echo ${i}; done > read_counts_MMDDYYYY.csv```
 
  ## NGS packages
+ 
   Install python2.7 version of htseq
   
   `conda install -c bcbio htseq`
   
   Check if tools such as bwa, bedtools, and samtools are installed in your path.
  
-  
+## Sequence alignment
 
+   Find number of times a specific score (e.g., 55) appears in an output alignment from EMBOSS needle.
+   
+   `grep 55 588_alignment.txt -wc`
