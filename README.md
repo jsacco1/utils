@@ -30,6 +30,6 @@ https://stackoverflow.com/questions/36374267/how-to-fix-fatal-error-zlib-h-no-su
 
 https://bioinformatics.cvr.ac.uk/short-command-lines-for-manipulation-fastq-and-fasta-sequence-files/ SHORT COMMAND LINES FOR MANIPULATION FASTQ AND FASTA SEQUENCE FILES
 
-https://www.automateexcel.com/formulas/remove-numbers-from-text/ Remove numbers from text string in Exel. Example: =SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A2,1,""),2,""),3,""),4,""),5,""),6,""),7,""),8,""),9,""),0,"")
+https://www.automateexcel.com/formulas/remove-numbers-from-text/ Remove numbers from text string in Exel. See: "SUBSTITUTE Function Formula" setting.
 
 
