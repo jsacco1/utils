@@ -14,6 +14,13 @@ This repository contains useful code focused on bioinformatics analysis of NGS d
   Recipe to reverse complement fastq files in batch.
 
 ## Useful links
+
+Data management:
+
+https://genomespot.blogspot.com/2021/02/storing-your-sequence-data.html
+
+Packages:
+
 https://bioinf.shenwei.me/seqkit/tutorial/ (seqkit)
 
 https://sourceforge.net/projects/bbmap/ (bbmap)
@@ -21,6 +28,8 @@ https://sourceforge.net/projects/bbmap/ (bbmap)
 https://anaconda.org/bcbio/htseq (htseq for python2.7 support)
 
 https://www.golinuxcloud.com/tmux-commands/#Create_your_first_tmux_session tmux tutorial (terminal/CLI tool for uninterrupted running of processes)
+
+Linux:
 
 https://www.linuxvasanth.com/category/shell-scripting/ Linux blog with useful tips
 
