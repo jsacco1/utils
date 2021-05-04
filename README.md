@@ -32,4 +32,6 @@ https://bioinformatics.cvr.ac.uk/short-command-lines-for-manipulation-fastq-and-
 
 https://www.automateexcel.com/formulas/remove-numbers-from-text/ Remove numbers from text string in Exel. See: "SUBSTITUTE Function Formula" setting.
 
+https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)/Bioinformatics_from_the_outside#The_command_line  Next Generation Sequencing (NGS)/Bioinformatics from the outside
+
 
