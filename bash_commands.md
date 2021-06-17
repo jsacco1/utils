@@ -1,4 +1,5 @@
 # Title: bash_commands
+# Author: James Sacco
 
 # Some useful snippets for Bash
 
@@ -7,6 +8,10 @@
    How to fix fatal error: zlib.h: no such file or directory?
   
   `sudo apt-get install libz-dev`
+  
+   Clear all variable assignments. Delete variables in terminal:
+   
+   `exec bash`
 
 ### Copy and send file over a secure, encrypted network connection
 
