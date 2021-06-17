@@ -1,7 +1,7 @@
 # Title: bash_commands
-# Author: James Sacco
+## Author: James Sacco
 
-# Some useful snippets for Bash
+## Some useful Linux BASH snippets
 
 ## Environment Setup
    
@@ -9,7 +9,7 @@
   
   `sudo apt-get install libz-dev`
   
-   Clear all variable assignments. Delete variables in terminal:
+   Clear all variable assignments. Delete variables in terminal. Note: this will exit current conda env.
    
    `exec bash`
 
@@ -38,6 +38,10 @@
   A good check is to run bwa mem with forward and reverse FASTQ files. If memory runs out, the system will automatically kill the process. 
   
   Adjust swapiness value if you run out of memory on a Linux system.(See: https://linuxize.com/post/create-a-linux-swap-file/)
+  
+  Check processes
+  
+  `ps`
 
 ### Loading files
 
