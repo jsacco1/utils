@@ -29,7 +29,7 @@
   5. Add bwa and bedtools to the $PATH
   
 ## Analysis
-  1. Run each step individually, starting from from umitag. No yaml file required. 
+  1. From the directory that contains guideseq, run each step individually, starting from from umitag. No yaml file required. 
   
   Example:
   
