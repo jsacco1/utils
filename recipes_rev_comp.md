@@ -13,7 +13,7 @@
   
 ## Recipe: Convert whole fastq.gz files to their reverse complements in batch
 
-  1. Open the bash shell
+  1. Open the bash shell and activate conda env with seqkit installed.
   
   2. Copy and paste all Index2 files to their own directory, within the current directory of fastq files.
   
