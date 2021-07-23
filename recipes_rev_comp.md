@@ -31,11 +31,11 @@
   
   5. Batch reverse complement.
   
-  `for f in $files; do seqkit seq -rp -t dna < "$prefix$f" > "$prefix$f"; done`
+  `for f in $files; do seqkit seq -rp -t dna < "$f" > "$prefix$f"; done`
   
   6. Drop ending extension. The FASTQ files end with "fastq.gz", but are not, in fact, gzipped.
 
-  `rename 's/\.gz$//' *.gz`
+  `rename 's/\.gz$//' rev*`
   
   7. Gzip all FASTQs in current directory (do this after making reverse complement files):
 
