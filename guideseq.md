@@ -10,11 +10,15 @@
 
   `conda create -n py27 python=2.7`
   
-  2. Install python2.7 version of htseq. (See: https://anaconda.org/bcbio/htseq)
+  2. Activate env
+  
+  `conda activate py27`
+  
+  3. Install python2.7 version of htseq. (See: https://anaconda.org/bcbio/htseq)
   
   `conda install -c bcbio htseq`
 
-  3. *May need bedtools 2.25 to work around some errors.*
+  4. *May need bedtools 2.25 to work around some errors.*
   
   Download Bedtools 2.25 from here: https://github.com/arq5x/bedtools2/releases/tag/v2.25.0
   
@@ -22,7 +26,7 @@
   
   Note the path for bwa added as environment variable.
 
-  4. Add bwa and bedtools to the $PATH
+  5. Add bwa and bedtools to the $PATH
   
 ## Analysis
   1. Run each step individually, starting from from umitag. No yaml file required. 
