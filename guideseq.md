@@ -18,11 +18,19 @@
   
   `conda install -c bcbio htseq`
 
-  4. *May need bedtools 2.25 to work around some errors.*
+  4. Install bedtools 2.25 to work around some errors.*
   
   Download Bedtools 2.25 from here: https://github.com/arq5x/bedtools2/releases/tag/v2.25.0
   
-  See this issue with regards to installation of bedtools and bwa: https://github.com/aryeelab/guideseq/blob/c608522e36dd20c480774284b52bcf13476a7b7b/.travis.yml
+  or
+  
+  `conda install bedtools=2.25`
+  
+  See these issue with regards to installation of bedtools and bwa: 
+  
+  https://github.com/aryeelab/guideseq/blob/c608522e36dd20c480774284b52bcf13476a7b7b/.travis.yml
+  
+  https://github.com/aryeelab/guideseq/issues/47
   
   Note the path for bwa added as environment variable.
 
@@ -48,7 +56,18 @@
   
   4. Align to reference genome.
   
-  Make sure bwa is in your PATH. Specify path to genomic reference (e.g., hg38.fa). (This step may take 20 minutes.)
+  Make sure bwa is in your PATH. Specify path to genomic reference (e.g., hg38.fa). (Alignment  step may take about 20 minutes.)
+  
+  Check that bwa is in your PATH with `which bwa` .
+  
+  Install bwa & add it to PATH: 
+  
+  ```
+  $ curl -L -o bwa-0.7.5.tar.bz2 http://sourceforge.net/projects/bio-bwa/files/bwa-0.7.5a.tar.bz2/download`
+  $ cd bwa; make
+  $ export PATH=$PATH:~/path/to/bwa_executable`
+  $ source ~/.bash
+  ```
   
   5. Identify off-target sites
   
