@@ -62,6 +62,10 @@
   Enter a directory with spaces in its name
   
   `cd 'path/to/di rectory'`
+  
+  List files in directory and subdirectories, and sort by modification time
+  
+  `ls -ltd $(find .)`
 
 ## EDA
 
