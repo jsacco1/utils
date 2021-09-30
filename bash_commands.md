@@ -66,6 +66,10 @@
   List files in directory and subdirectories, and sort by modification time
   
   `ls -ltd $(find .)`
+  
+  List files only (in directories and subdirectories) 
+  
+  `find . -type f`
 
 ## EDA
 
