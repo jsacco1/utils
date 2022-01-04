@@ -70,6 +70,10 @@
   List files only (in directories and subdirectories) 
   
   `find . -type f`
+  
+  Count (fastq.gz) files in a directory
+  
+  `ls -1q *fastq.gz | wc -l`
 
 ## EDA
 
